@@ -1,0 +1,57 @@
+.calendar {
+  padding: 50px;
+}
+
+.header, .week, .days {
+  display: flex;
+  justify-content: center;
+}
+
+.week > div {
+  padding: 20px;
+}
+
+.day {
+  width: 100px;
+  height: 100px;
+  border: 1px solid lightgray;
+}
+
+form {
+    display: flex;  
+    flex-direction: column;
+    margin: 50px;
+    text-align: center;
+}
+
+form > label > input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    width: 70%;
+    margin: 10px;
+}
+
+form > label > input[type="date"] {
+    padding: 5px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+form > div {
+    display: flex;
+    justify-content: center;
+}
+
+form > div > button, input[type="submit"] {
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.event {
+    width: 100px;
+    height: 20px;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    text-align: center;
+}
