@@ -121,6 +121,7 @@ class Calendar extends React.Component {
     handleDelete = () => {
         const { selectedEvent, events } = this.state;
         events.splice(selectedEvent.id, 1);
+        events.forEach((event, i) => event.id = i);
     
         this.setState({
             events,
